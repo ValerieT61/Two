@@ -1,0 +1,72 @@
+/* The code on lines 2-4 centers the text of all h1's on the page.*/
+h1{
+    text-align:center;
+}
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+img{
+  padding: 8ps;
+  border-color: #000000;
+  border: solid;
+  border-width: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+}
+
+/* The code on lines 14-16 centers the text of all h2's on the page*/
+h2{
+  text-align:center;
+  color:#941b0c;
+  padding: 8ps;
+  background-color: #520000;
+  border-color: #936639;
+  border: solid;
+  border-width: 4px;
+}
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.sectionsContainer{
+    display:flex;
+    justify-content:space-between;
+  color:#cea29c;
+  padding: 8ps;
+  background-color: #6da29e;
+  border-color: #d7b593;
+  border: solid;
+  border-width: 4px;
+  
+}
+
+
+/* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
+.section{
+    border: 5px black solid;
+    margin:5px;
+}
+.Sandy_Hook{
+  color: #6c584c;
+  padding: 8ps;
+  background-color: #333d29;
+  border-color: #414833;
+  border: solid;
+  border-width: 4px;
+}
+
+.Mass {
+  color: #6c584c;
+  padding: 8ps;
+  background-color: #333d29;
+  border-color: #414833;
+  border: solid;
+  border-width: 4px;
+}
+
+.Pew_{
+  color: #2c6856;
+  padding: 8ps;
+  background-color: #99c46e;
+  border-color: #a0d9c8;
+  border: solid;
+  border-width: 4px;
+}
